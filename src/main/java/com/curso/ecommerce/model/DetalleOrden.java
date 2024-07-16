@@ -6,7 +6,7 @@ public class DetalleOrden {
 	private String nombre;
 	private double cantidad;
 	private double precio;
-	private double total;
+	private double total;	
 	
 	public DetalleOrden() {
 		
