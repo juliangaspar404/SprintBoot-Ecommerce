@@ -103,12 +103,14 @@ public class Producto {
 	@Override
 	public String toString() {
 		return "Producto [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", imagen=" + imagen
+				+ ", precio=" + precio + ", cantidad=" + cantidad + "]";
+	}
+	/*public String toString() {
+		return "Producto [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", imagen=" + imagen
 				+ ", precio=" + precio + ", cantidad=" + cantidad + ", getId()=" + getId() + ", getNombre()="
 				+ getNombre() + ", getDescripcion()=" + getDescripcion() + ", getImagen()=" + getImagen()
 				+ ", getPrecio()=" + getPrecio() + ", getCantidad()=" + getCantidad() + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
-	}
-	
-	
+	}*/	
 
 }
