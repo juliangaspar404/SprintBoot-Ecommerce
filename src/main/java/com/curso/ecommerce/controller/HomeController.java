@@ -65,10 +65,8 @@ public class HomeController {
 		detalleOrden.setPrecio(producto.getPrecio());
 		detalleOrden.setNombre(producto.getNombre());
 		detalleOrden.setTotal(producto.getPrecio()*cantidad);
-		detalleOrden.setProducto(producto);
-		
-		detalles.add(detalleOrden);
-		
+		detalleOrden.setProducto(producto);		
+		detalles.add(detalleOrden);		
 		sumaTotal = detalles.stream().mapToDouble(dt->dt.getTotal()).sum();
 		orden.setTotal(sumaTotal);
 		model.addAttribute("cart", detalles);
